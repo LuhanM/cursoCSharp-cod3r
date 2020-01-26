@@ -16,7 +16,8 @@ namespace CursoCSharp.EstruturasDeControle
                 case 0:
                     Console.WriteLine("Péssimo");
                     break;
-                case 1: case 2:
+                case 1:
+                case 2:
                     Console.WriteLine("Ruim");
                     break;
                 case 3:
