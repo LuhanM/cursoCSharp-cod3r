@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -32,6 +33,25 @@ namespace CursoCSharp {
                 {"Estrutura Do-While- Estruturas de Controle", EstruturaDoWhile.Executar},
                 {"Estrutura For- Estruturas de Controle", EstruturaFor.Executar},
                 {"Estrutura Foreach- Estruturas de Controle", EstruturaForeach.Executar},
+
+                {"Membros - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Métodos Estáticos - Classes e Métodos", MetodoEstatico.Executar},
+                {"Atributo Estático - Classes e Métodos", AtributoEstatico.Executar},
+                {"Params - Classes e Métodos", Params.Executar},
+                {"Getters e Setter -  Classes e Métodos", GetSet.Executar},
+                {"Propriedades -  Classes e Métodos", Propriedades.Executar},
+                {"Readonly -  Classes e Métodos", Readonly.Executar},
+                {"Enumerados -  Classes e Métodos", ExemploEnum.Executar},
+                {"Struct -  Classes e Métodos", Struct.Executar},
+                {"Struct vs Classe -  Classes e Métodos", StructVsClasse.Executar},
+                {"Parâmetros Por Referência -  Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetro com valor padrão -  Classes e Métodos", ParametroPadrao.Executar},
+
+
+
+
             });
 
             central.SelecionarEExecutar();
