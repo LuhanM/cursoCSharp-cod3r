@@ -10,6 +10,7 @@ namespace CursoCSharp.OO
     {
         public static void Executar()
         {
+            Console.WriteLine("Olhar a pasta 'Encapsulamento de demontras as o acesso as propridades, confome o grau de encapsulamento'");
         }
     }
 }
