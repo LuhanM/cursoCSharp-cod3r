@@ -55,6 +55,8 @@ namespace CursoCSharp.Excecoes
             } catch (ImparException ex)
             {
                 Console.WriteLine(ex.Message);
+
+
             } 
         }
     }
