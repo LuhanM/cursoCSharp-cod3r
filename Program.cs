@@ -8,6 +8,7 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp {
     class Program {
@@ -80,8 +81,12 @@ namespace CursoCSharp {
                 { "Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
                 { " Exceção Personalizada - Exceções", ExcecoesPersonalizadas.Executar},
 
-
-
+                { "Primeiro Arquivos - API", PrimeiroArquivo.Executar},
+                { "Lendo Arquivos - API", LendoArquivos.Executar},
+                { "Diretorios - API", Diretorios.Executar},
+                { "Exemplo Path - API", ExemploPath.Executar},
+                { "Exemplo DateTime - API", ExemploDateTime.Executar},
+                { "Exemplo TimeSpan - API", ExemploTimeSpan.Executar},
 
             });
 
